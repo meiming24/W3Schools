@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #282A35;
+}
+
+.navbar {
+  padding: 0px 16px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.navbar .left-items {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .left-items img {
+  width: 47.75 - 16px;
+  height: 42.4px;
+  margin: 16px;
+}
+
+.main-title {
+  font-size: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main-title h3 {
+  padding: 8px 16px;
+}
+
+.navbar .right-items {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .right-items Button {
+  font-family: 'Source Sans Pro', sans-serif;
+  border-style: none;
+  border-radius: 25px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 700;
+  margin-right: 8px;
+  height: 43px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.navbar .right-items span {
+  position: absolute;
+  padding: 3px 10px;
+  margin-left: 3px;
+  font-size: 11px;
+  line-height: 1.5;
+  font-weight: 700;
+  border-radius: 25px;
+  border: 1px solid black;
+  margin-top: 25px;
+  margin-left: 200px;
+  background-color: #fff;
+}
+
+.navbar .right-items i {
+  font-size: 18px;
+  margin-right: 8px;
+  padding: 24px 12px;
+  line-height: 1.5;
+}
+
+.navbar .right-items i:hover {
+  color: #04aa6d;
+}
+
+.landing {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.landing h1 {
+  font-size: 70px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 90px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.landing h3 {
+  font-size: 23px;
+  color: #ffc0c7;
+  font-weight: 700;
+}
+
+.landing h4 {
+  font-size: 23px;
+  color: white;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid #282A35;
+  border-radius: 25px;
+  float: left;
+  width: 23%;
+  padding-left: 25px;
+  background: white;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0;
+  border-right: 1px solid #04AA6D;
+  outline: 0;
+}
+
+.search-bar button {
+  border-radius: 25px;
+  width: 6.2%;
+  padding: 10px;
+  background: #04AA6D;
+  color: white;
+  font-size: 17px;
+  border: 1px solid #282A35;
+  border-left: none;
+  cursor: pointer;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.landing img {
+  width: 100%;
+  margin-top: 70px;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.left-content h1 {
+  font-size: 100px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  margin-bottom: 30px;
+}
+
+.left-content h3 {
+  padding-bottom: 20px;
+}
+
+.left-content p {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.left-content button {
+  border-style: none;
+  font-size: 16px;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+  padding: 12px 0px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.card {
+  padding-bottom: 60px;
+}
+
+.card div {
+  display: flex;
+  padding: 16px;
+  height: auto;
+  flex-direction: column;
+  background-color: #E7E9EB;
+  border-radius: 4px;
+  margin-right: 80px;
+  margin-top: 80px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  padding: 16px;
+}
+
+.card div h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.card div img {
+  width: 584px;
+}
+
+.card div button {
+  border-style: none;
+  font-size: 16px;
+  width: 200px;
+  border-radius: 25px;
+  padding: 12px 0px;
+  font-weight: 600;
+  margin-top: 20px;
+  background-color: #04AA6D;
+  color: #fff;
+}
+
+.intro button:hover {
+  background-image: linear-gradient(rgba(46, 46, 46, 0.3) 0 0);
+}
+
+.class-card {
+  padding: 24px;
+  color: #000;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  text-align: center;
+  width: 568px;
+  height: 216;
+  padding: 28px 25px;
+  margin: 30px 40px;
+}
+
+.class-card h2{
+  font-size: 50px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.class-card h5 {
+  font-size: 18px;
+  margin: 10px 0px;
+}
+
+.class-card button {
+  background-color: #282A35;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 20px 0px;
+  padding: 10px 0px;
+  width: 200px;
+  border-radius: 25px
+}
+
+.class-card-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 64px 0px;
+}
+
+.other {
+  height: 137px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 28px 42px;
+}
+
+.other h2 {
+  font-size: 30px;
+  margin: 10px 0px;
+}
+
+.other-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.other:hover {
+  background-image: linear-gradient(rgba(46, 46, 46, 0.3) 0 0);
+}
+
+.code-editor {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 75px;
+}
+
+.code-editor h1 {
+  font-size: 65px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.code-editor h4 {
+  font-size: 20px;
+  margin: 0;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.code-editor div {
+  background-image: url("./imgs//codeheader.png");
+  background-repeat: no-repeat;
+  background-size: 942px 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.code-editor div img {
+  margin-top: 90px;
+  width: 942px;
+  height: 279px;
+  margin-bottom: 10px;
+}
+
+.code-editor button {
+  font-size: 17px;
+  font-weight: 700;
+  font-family: 'Source Sans Pro', sans-serif;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  padding: 6px 18px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: #04AA6D;
+  color: #ffffff;
+  margin: 10px 0px;
+}
+
+.big-wrapper img {
+  width: 100%;
+  position: relative;
+}
