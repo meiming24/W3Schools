@@ -20,9 +20,9 @@ export default class Intro extends Component {
               this.props.title === 'JavaScript' ? <h3 style={{ color: 'white' }}> { this.props.sub } </h3> :  <h3> { this.props.sub } </h3>
             }
             {
-                this.props.buttons.map((button, key) => (
-                    <button key = { key } style = { { backgroundColor: `${ button.backgroundColor }`, color: `${ button.color }` } }> { button.name }</button>
-                ))
+              this.props.buttons.map((button, key) => (
+                  <button key = { key } style = { { backgroundColor: `${ button.backgroundColor }`, color: `${ button.color }` } }> { button.name }</button>
+              ))
             }
         </div>
 
@@ -37,7 +37,7 @@ export default class Intro extends Component {
                   return null;
                 })
               } 
-              <button>Try it Yourself</button>
+              <button>Try it by Yourself</button>
             </div>
             
         </div>
