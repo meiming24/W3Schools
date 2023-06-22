@@ -34,7 +34,7 @@ export default class NavBar extends Component {
                 <i className="fa-solid fa-circle-half-stroke"></i>
                 <i className="fa-solid fa-earth-americas"></i>
                 <i className="fas fa-search"></i>
-                <Button text = { 'Pro' } backgroundColor = { '#fff' } color = { '#000' } width = { 16 } pdr = { 60 } /><span>NEW</span>
+                <Button text = { 'Pro' } backgroundColor = { '#fff' } color = { '#000' } width = { 16 } pdr = { 60 } /><span>NEWLY UPDATED</span>
                 <Button text = { 'Get Certified' } backgroundColor = { '#ffc0c7' } color = { '#000' } width = { 16 } />
                 <Button text = { 'Website' } backgroundColor = { '#fff' } color = { '#000' } width = { 16 } />
                 <Button text = { 'Log in' } backgroundColor = { '#04aa6d' } color = { '#fff' } width = { 40 } />
