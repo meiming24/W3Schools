@@ -28,7 +28,7 @@ export default class Intro extends Component {
 
         <div className='card'>
             <div>
-              <h3> { this.props.title } Example: </h3>
+              <h3> { this.props.title } Mini Example: </h3>
               {
                 imgs.map((value, index) => {
                   if(this.props.title === strings[index]){
